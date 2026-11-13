@@ -19,7 +19,7 @@ Doorloop de array met een `for`-lus. Als de temperatuur `25` graden of hoger is,
 Gegeven een array: `[12, -5, 8, -3, 0, 19, -11]`.
 Gebruik een `for`-lus om alle strikt positieve getallen in een nieuwe array `positief` te plaatsen, en alle strikt negatieve getallen in een array `negatief` (negeer het getal `0`). Druk beide arrays achteraf af.
 
----
+
 
 ## Niveau 2: `while` en `do...while` lussen
 
