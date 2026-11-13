@@ -40,6 +40,7 @@ let spaargeld= 250
 const maandelijks= 150
 const doel = 1200
 
-while (spaargeld) { spaargeld+maandelijks
+console.log();
+
     
-}
+
