@@ -36,11 +36,30 @@ for(let i = 0; i < getallen.length; i++) {
 
 //oef4
 
-let spaargeld= 250 
-const maandelijks= 150
-const doel = 1200
+let spaargeld = 250;
+let doel = 1200;
+let maandelijkseInleg = 150;
+let maanden = 0;
 
-console.log();
+while (spaargeld < doel) {
+  spaargeld += maandelijkseInleg;
+  maanden++;
+}
+console.log("Aantal maanden gespaard: " + maanden);
+console.log("Uiteindelijk spaarsaldo: €" + spaargeld);
 
-    
+//oef 5
+
+ let aantalPogingen = 0;
+let gegooideGetal;
+
+do {
+  gegooideGetal = Math.floor(Math.random() * 6) + 1;
+  aantalPogingen++;
+  console.log("Worp " + aantalPogingen + ": " + gegooideGetal);
+} while (gegooideGetal !== 6);
+
+console.log("Het duurde " + aantalPogingen + " pogingen om een 6 te gooien.");
+
+// 
 
