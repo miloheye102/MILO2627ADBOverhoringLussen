@@ -61,5 +61,24 @@ do {
 
 console.log("Het duurde " + aantalPogingen + " pogingen om een 6 te gooien.");
 
-// 
+// oef 6
 
+let wachtwooordpogingen= [1111, 2222, 3333, 4567]
+let wachtwoord=[4567]
+
+//oef7
+
+let getal= [15, 20, 5, 0, 100, 50]
+do {getal++
+    
+} while (condition);
+
+
+//oef 8 
+let prijs = [120, 45, 210, 15, 85]
+
+if (prijs<=200) {console.log()
+    
+} else {
+    
+}
